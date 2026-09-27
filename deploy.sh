@@ -17,11 +17,11 @@ git commit -m 'deploy'
 
 # 5. Push to GitHub Pages
 # Use SSH (ensure your SSH key is set up)
-git push -f git@github.com:benjicwood/ynot-poster-creator.git main:gh-pages
-# git push -f https://github.com/benjicwood/ynot-poster-creator.git main:gh-pages
-# git -c core.sshCommand="ssh -o PubkeyAcceptedAlgorithms=+ssh-rsa" push -f git@github.com:benjicwood/ynot-poster-creator.git main:gh-pages
+git push -f git@github.com:benjicwood/ynot-festival-creator.git main:gh-pages
+# git push -f https://github.com/benjicwood/ynot-festival-creator.git main:gh-pages
+# git -c core.sshCommand="ssh -o PubkeyAcceptedAlgorithms=+ssh-rsa" push -f git@github.com:benjicwood/ynot-festival-creator.git main:gh-pages
 
 # 6. Return to root
 cd -
 
-echo "✅ Deployment complete! Visit: https://benjicwood.github.io/ynot-poster-creator/"
+echo "✅ Deployment complete! Visit: https://benjicwood.github.io/ynot-festival-creator/"
