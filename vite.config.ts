@@ -3,7 +3,7 @@ import vue from "@vitejs/plugin-vue";
 
 export default defineConfig(() => {
   return {
-    base: "/ynot-poster-creator/",
+    base: "/ynot-festival-creator/",
     plugins: [vue()],
   };
 });
